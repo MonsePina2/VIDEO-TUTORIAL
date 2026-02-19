@@ -38,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("InputX",moveInput.x);
         animator.SetFloat("InputY",moveInput.y);
-        Debug.Log(moveInput);
+
 
     }
 }
